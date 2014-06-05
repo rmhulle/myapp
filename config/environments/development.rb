@@ -26,4 +26,9 @@ Myapp::Application.configure do
   # This option may cause significant delays in view rendering with a large
   # number of complex assets.
   config.assets.debug = true
+
+  #->Prelang
+  GA.tracker = "UA-49243876-1 "
+
 end
+
